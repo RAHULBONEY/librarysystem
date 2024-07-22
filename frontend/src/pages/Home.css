@@ -1,0 +1,101 @@
+/* Home.css */
+.home-container {
+    padding: 2rem;
+    background: linear-gradient(to right, #d4fc79, #96e6a1); /* Gradient background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.add-button {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-info {
+    flex-grow: 1;
+    margin-right: 1rem;
+}
+
+.card-info h2 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.card-info p {
+    font-size: 1.125rem;
+    margin: 0.5rem 0;
+}
+
+.card-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-actions a {
+    color: #007bff;
+    font-size: 1.75rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.card-actions a:hover {
+    color: #0056b3;
+}
